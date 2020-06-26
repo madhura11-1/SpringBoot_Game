@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Stone Paper Scissor Game</title>
+    <style>
+        .image{
+            width: 300px;
+            height: 300px;
+            float: left;
+        }
+        .text{
+            float: left;
+            margin-top: 100px;
+            font-size: large;
+            font-style: oblique;
+            font-family: "L M Roman Caps10";
+            margin-left: 100px;
+            margin-right: 50px;
+        }
+        .row{
+            margin-left: 400px;
+            display: table;
+            clear: both;
+            content: "";
+        }
+        .model{
+            float: left;
+            margin-right: 30px;
+        }
+        .ready{
+            margin-left: 550px;
+            float: left;
+        }
+        .ready2{
+            margin-left: 750px;
+            margin-top: 100px;
+            float: left;
+        }
+        .image2{
+            float: left;
+            margin-left: 400px;
+
+        }
+        .display{
+            float: left;
+            margin-left: 100px;
+        }
+        .you{
+            float: left;
+            margin-left: 130px;
+        }
+        .machine{
+            float: left;
+            margin-left: 500px;
+        }
+    </style>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</head>
+<body>
+<h1>
+    <i><center>Stone Paper Scissor</center></i>
+</h1>
+<div class="entire">
+    <div class="row">
+        <div class="display">
+            <img src="https://i.pinimg.com/originals/49/a6/e9/49a6e9c659b49cf1f90909f79efde5b6.jpg" height="100px" width="100px" border="1px" style="padding: 50px ; border-radius: 4px" >
+        </div>
+        <div class="text">
+            Winner is Scisssor
+        </div>
+        <div class="display">
+            <img src="https://imageenvision.com/450/26106-clip-art-graphic-of-a-white-copy-and-print-paper-cartoon-character-pointing-upwards-by-toons4biz.jpg" height="100px" width="100px" border="1px" style="padding: 50px ; border-radius: 4px">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="you">
+            <h4>Your Choice</h4>
+        </div>
+        <div class="machine">
+            <h4>Opponent's Choice</h4>
+        </div>
+    </div>
+    <div class="row">
+        <div class="image">
+            <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_UUEfqG.json" background="transparent"  speed="1"  style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+        </div>
+
+        <div class="image2">
+            <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_rwqsNq.json" background="transparent"  speed="1"  style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+        </div>
+    </div>
+
+    <div class="row">
+
+        <div class="model">
+            <img src="https://www.jing.fm/clipimg/full/123-1236552_rock-paper-scissors-rock-paper-scissors-png.png" height="50px" width="50px">
+        </div>
+
+        <div class="model">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSW6DkfSm1pEHs-fQS29QMvUqHe-spiZfZ-ug&usqp=CAU" height="60px" width="60px">
+        </div>
+
+        <div
+                class="model">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSun1AMTBSfNW5OJJ0Gr6NZU2E5HiKzW8nD7w&usqp=CAU" height="60px" width="60px">
+        </div>
+
+        <div class="ready">
+            <h2>I am always ready....</h2>
+        </div>
+
+    </div>
+
+
+    <div class="ready2">
+        <h1>Congratulations u won</h1>
+    </div>
+
+
+</div>
+
+
+</body>
+</html>
